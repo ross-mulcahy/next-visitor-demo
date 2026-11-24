@@ -1,0 +1,15 @@
+# Training crawlers: opt out
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Disallow: /
+
+# Search and answer bots: stay visible
+User-agent: OAI-SearchBot
+User-agent: Claude-SearchBot
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
